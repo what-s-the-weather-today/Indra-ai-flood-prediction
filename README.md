@@ -1,42 +1,38 @@
-# Indra — Flood Early Warning & Rainfall Monitoring
+# Indra FloodSense
 
-**Indra** is an AI-powered flood early warning and rainfall monitoring platform. It provides real-time rainfall monitoring, location-based flood risk mapping, hourly rainfall forecasts, and early alerts.
+AI-powered flood risk monitoring and prediction platform.
 
-## Tech Stack
-- **React 18 + Vite**
-- **Tailwind CSS** (Dark navy `#0B1A33` theme with `#19C3F0` cyan accents and glowing cards)
-- **Recharts** (City risk share donut chart)
-- **React-Leaflet + OpenStreetMap** (Interactive flood risk corridor polygons, river line, and station markers)
-- **lucide-react** (Icons)
-- **react-router-dom** (Multi-page navigation: Home, Dashboard, Live Rainfall, Flood Risk, Alerts, About Us)
-- **Single Data Source**: All mock data, city profiles (`Jaipur`, `Mumbai`, `Guwahati`), and the unified `getRainCategory(mmPerHour)` helper live in `src/data/mock.js`.
+## Features
+- Interactive flood risk map
+- Rainfall monitoring and forecasts
+- Location-based flood risk levels
+- Flood alerts and safety information
+- AI chatbot interface
+
+## Technology Stack
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
+
+## Demo Notice
+This project may use demo data. Risk estimates and forecasts should not be treated as official emergency warnings.
 
 ## Getting Started
 
-### Prerequisites
-- Node.js (v18+ recommended) and npm
+Install dependencies:
 
-### Installation & Run Instructions
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-3. Open the local URL printed in your terminal (typically `http://localhost:5173`) in your browser.
-
-### Build for Production
 ```bash
-npm run build
-npm run preview
+npm install
 ```
 
-## Project Team
-- **Saksham Agarwal** (Leader)
-- **Lakshya Raj Yadav** (Team Member)
-- **Nishant Sharma** (Team Member)
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in the terminal.
+
+## Project Status
+Developed as a student project to explore AI-assisted flood risk monitoring and awareness.
